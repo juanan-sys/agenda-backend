@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
-from backend.schemas import TaskV2, TaskV2Base, TaskV2Update
-from backend import crud
+from schemas import TaskV2, TaskV2Base, TaskV2Update
+import crud
 
 router = APIRouter(prefix="/tasks_v2", tags=["Tasks V2"])
 

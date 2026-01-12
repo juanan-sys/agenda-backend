@@ -14,5 +14,5 @@ Base = declarative_base()
 
 def init_db():
     # Importa los modelos para que SQLAlchemy los registre
-    from backend import models
+    import models
     Base.metadata.create_all(bind=engine)

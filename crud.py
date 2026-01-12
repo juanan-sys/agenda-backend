@@ -1,5 +1,5 @@
-from backend.models import TaskV2
-from backend.database import SessionLocal
+from models import TaskV2
+from database import SessionLocal
 
 def create_task_v2(task):
     db = SessionLocal()
